@@ -11,6 +11,6 @@ describe("Calculator Testsuite", () => {
     expect(multiply(3, 5)).toBe(15);
   });
   it("return divison of 3,5", () => {
-    expect(divison(3, 5)).toBe(0);
+    expect(divison(3, 5)).toBe(0.6);
   });
 });
