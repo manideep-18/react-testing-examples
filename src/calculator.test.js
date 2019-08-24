@@ -13,4 +13,10 @@ describe("Calculator Testsuite", () => {
   it("return divison of 3,5", () => {
     expect(divison(3, 5)).toBe(0.6);
   });
+  it("return divison of 3,5", () => {
+    function divisonZero() {
+      divison(3, 0);
+    }
+    expect(divisonZero).toThrowError("Divison by Zero");
+  });
 });
