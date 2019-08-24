@@ -1,4 +1,4 @@
-import { addition, subtraction, multiply } from "./calculator";
+import { addition, subtraction, multiply, divison } from "./calculator";
 
 describe("Calculator Testsuite", () => {
   it("returns sum of 3,5", () => {
@@ -9,5 +9,8 @@ describe("Calculator Testsuite", () => {
   });
   it("return multiply of 3,5", () => {
     expect(multiply(3, 5)).toBe(15);
+  });
+  it("return divison of 3,5", () => {
+    expect(divison(3, 5)).toBe(0);
   });
 });

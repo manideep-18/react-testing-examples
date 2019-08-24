@@ -1,4 +1,4 @@
 [x]Addition
 [x]Subtraction
-[*]Multiplication 
-[]Divison
+[x]Multiplication 
+[*]Divison
